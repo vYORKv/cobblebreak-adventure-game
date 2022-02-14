@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Assets/Graphics/dialoguebox1.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Graphics/PeaberryBase.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://MenuScripts/MehEnd.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Audio/Music/MehEnd.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="MehEnd" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="MehEnding" type="NinePatchRect" parent="."]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 368.0
+margin_bottom = 208.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MehEnding"]
+margin_left = 16.0
+margin_top = 20.0
+margin_right = 337.0
+margin_bottom = 170.0
+custom_fonts/normal_font = SubResource( 1 )
+text = "Nice! You receive a gold coin for your efforts! You could use this to buy an apple or a rope or something else along those lines. Don't you feel accomplished?
+
+
+Press ENTER to return to main menu!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )

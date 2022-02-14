@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://MenuScripts/BadEnd.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Graphics/dialoguebox1.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Graphics/PeaberryBase.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Assets/Audio/Music/BadEnd.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[node name="BadEnd" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="BadEnding" type="NinePatchRect" parent="."]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 368.0
+margin_bottom = 208.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="BadEnding"]
+margin_left = 16.8062
+margin_top = 20.3674
+margin_right = 336.806
+margin_bottom = 170.367
+custom_fonts/normal_font = SubResource( 1 )
+text = "Unfortunately, you receive no reward for your efforts. But often in life, a good deed accomplished is a reward in itself...
+
+
+
+Press ENTER to return to main menu!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )

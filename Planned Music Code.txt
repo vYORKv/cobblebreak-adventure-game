@@ -1,0 +1,26 @@
+Basic Node (Autoload)
+	AudioStreamPlayer (renamed Music)
+
+var menu_music = load("res://resources/Assets/Audio/Music/FileName.ogg")
+var world_music = load("res://resources/Assets/Audio/Music/FileName.ogg")
+var crypt_music = load("res://resources/Assets/Audio/Music/FileName.ogg")
+var crypt_cleared = load("res://resources/Assets/Audio/Music/FileName.ogg")
+
+func _ready():
+	pass
+
+func play_menu():
+	$Music.stream = menu_music
+	$Music.player()
+
+func play_world():
+	$Music.stream = world_music
+	$Music.player()
+
+func play_crypt():
+	if PlayerVariables.crypt_cleared = false:
+		$Music.stream = crypt_music
+		$Music.player()
+	else:
+		$Music.stream = crypt_cleared
+		$Music.player()

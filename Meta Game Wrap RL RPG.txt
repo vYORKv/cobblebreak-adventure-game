@@ -1,0 +1,19 @@
+MainMenu.tscn
+"A Brief Stop in Cobblebreak"
+Menu music
+Controls listed
+Start Game Button
+Close Game Button
+
+Game.tscn initializes $/res//:MainMenu.tscn
+
+MainMenu.tscn initializes $/res//:Game/World.tscn
+World music
+
+MainMenu.tscn also closes game
+
+End Game Screen Scenes initialize $/res//:MainMenu.tscn
+EndGame1.tscn
+EndGame2.tscn
+EndGame3.tscn
+

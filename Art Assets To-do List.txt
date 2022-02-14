@@ -1,0 +1,27 @@
+Art Assets To-Do
+
+1) Buttons Main Menu + Focus (Start, Settings, Credits, Quit) ***
+
+2) Title Page ***
+
+3) Settings Page ***
+
+4) Credits Page ***
+
+5) Back button + Focus (shared between 2 pages) ***
+
+6) 3 Volume Buttons (Master, Music, Effects) with 3 Volume States + Focus on each ***
+
+7) Controls Box for Main Menu ***
+	- Arrow keys for movement
+	- Space bar for interaction
+	- Esc to quit game
+
+8) Thicken "settings button/focused" ***
+
+
+SIZES
+
+Menus 380w220h
+Buttons 50w16h
+Controls 120w132h

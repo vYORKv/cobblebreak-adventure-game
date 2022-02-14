@@ -1,0 +1,58 @@
+Tasks for Today
+
+1) Create end-game scenes ***
+
+2) Script end-game off Skelly and Mayor ***
+
+3) Main Menu (button functionality only) ***
+	- Background for Main Menu
+
+4) Music Player Autoload/SFX Player Autoload ***
+
+5) Sound effects/music ***
+	-Door Closed
+	-Footsteps (stairs)
+
+6) Lower Game Volume (add options for 3 volume levels on menu) ***
+
+7) Clean Up Main Menu (Create Assets in Asesprite)
+
+8) Player movement held key  ***
+	- Potentially fixed with "Tween"
+	- Using timer(float)
+
+9) Add diaganol triggers ***
+
+10) Move Shopkeeper dia box up ***
+
+11) Increase footsteps sfx ***
+
+12) Decorate houses ***
+
+13) Make Me harder to find ***
+
+14) Add "esc" key to quit game ***
+
+15) Launch borderless fullscreen instead of fullscreen ***
+
+16) Maybe do tween to smooth movement ***
+
+17) Speed up movement ***
+
+18) Shopkeeper "in to" and Gravestone "need something" dialog
+
+19) Clean up text controls on main menu (new sprite resolution)
+
+20) Add highlights to credits menu
+
+21) Remove/Change splash screen on startup
+
+!!!!BUGS!!!!
+
+None
+
+******Fix these with a "SFX Autoload/Singleton"********
+
+???Questions???
+
+1) Autoload SFX player vs SFX attached directly to node through AudioStreamPlayer -- Which is better for game/system perfomance?
